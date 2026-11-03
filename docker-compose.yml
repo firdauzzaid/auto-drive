@@ -72,6 +72,24 @@ services:
       postgres_test:
         condition: service_healthy
 
+  seed_demo:
+    build:
+      context: .
+    profiles: ["seed"]
+    command: ["npm", "run", "seed:demo"]
+    environment:
+      APP_ENV: ${APP_ENV:-local}
+      SEED_DEMO: ${SEED_DEMO:-false}
+      SEED_DATABASE_URL: postgresql://bengkel_app:${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}@postgres:5432/bengkel
+      DEMO_OWNER_EMAIL: ${DEMO_OWNER_EMAIL:-owner.demo@bengkel.local}
+      DEMO_OWNER_PASSWORD: ${DEMO_OWNER_PASSWORD:-}
+      DEMO_CASHIER_EMAIL: ${DEMO_CASHIER_EMAIL:-kasir.demo@bengkel.local}
+      DEMO_CASHIER_PASSWORD: ${DEMO_CASHIER_PASSWORD:-}
+      DEMO_WORKSHOP_NAME: ${DEMO_WORKSHOP_NAME:-Bengkel Demo}
+    depends_on:
+      postgres:
+        condition: service_healthy
+
   minio:
     image: minio/minio:latest
     command: server /data --console-address ":9001"

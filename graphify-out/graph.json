@@ -342,6 +342,123 @@
       "source_location": "L36"
     },
     {
+      "id": "apps_api_src_modules_demo_seed_demo_app",
+      "label": "App",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "seed-demo.ts",
+      "file_type": "code",
+      "norm_label": "app",
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L14"
+    },
+    {
+      "id": "apps_api_src_modules_demo_seed_demo_namedresource",
+      "label": "NamedResource",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "seed-demo.ts",
+      "file_type": "code",
+      "norm_label": "namedresource",
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L16"
+    },
+    {
+      "id": "apps_api_src_modules_demo_seed_demo_product",
+      "label": "Product",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "seed-demo.ts",
+      "file_type": "code",
+      "norm_label": "product",
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L17"
+    },
+    {
+      "id": "apps_api_src_modules_demo_seed_demo_request",
+      "label": "Request",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "seed-demo.ts",
+      "file_type": "code",
+      "norm_label": "request",
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L15"
+    },
+    {
+      "id": "apps_api_src_modules_demo_seed_demo_seedinput",
+      "label": "SeedInput",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "seed-demo.ts",
+      "file_type": "code",
+      "norm_label": "seedinput",
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L6"
+    },
+    {
+      "id": "apps_api_src_modules_demo_seed_demo_vehicle",
+      "label": "Vehicle",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "seed-demo.ts",
+      "file_type": "code",
+      "norm_label": "vehicle",
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L18"
+    },
+    {
+      "id": "apps_api_src_modules_sales_void_sale_actor",
+      "label": "Actor",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "void-sale.test.ts",
+      "file_type": "code",
+      "norm_label": "actor",
+      "source_file": "apps/api/src/modules/sales/void-sale.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "apps_api_src_modules_sales_void_sale_voidsaleinput",
+      "label": "VoidSaleInput",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "void-sale.test.ts",
+      "file_type": "code",
+      "norm_label": "voidsaleinput",
+      "source_file": "apps/api/src/modules/sales/void-sale.ts",
+      "source_location": "L6"
+    },
+    {
+      "id": "apps_api_src_modules_sales_void_sale_voidsaleport",
+      "label": "VoidSalePort",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "void-sale.test.ts",
+      "file_type": "code",
+      "norm_label": "voidsaleport",
+      "source_file": "apps/api/src/modules/sales/void-sale.ts",
+      "source_location": "L12"
+    },
+    {
       "id": "apps_api_src_modules_purchases_complete_purchase_actor",
       "label": "Actor",
       "_callable": true,
@@ -457,45 +574,6 @@
       "norm_label": "productrow",
       "source_file": "apps/api/src/adapters/postgres-purchase-port.ts",
       "source_location": "L3"
-    },
-    {
-      "id": "apps_api_src_modules_sales_void_sale_actor",
-      "label": "Actor",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "pg",
-      "file_type": "code",
-      "norm_label": "actor",
-      "source_file": "apps/api/src/modules/sales/void-sale.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "apps_api_src_modules_sales_void_sale_voidsaleinput",
-      "label": "VoidSaleInput",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "pg",
-      "file_type": "code",
-      "norm_label": "voidsaleinput",
-      "source_file": "apps/api/src/modules/sales/void-sale.ts",
-      "source_location": "L6"
-    },
-    {
-      "id": "apps_api_src_modules_sales_void_sale_voidsaleport",
-      "label": "VoidSalePort",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "pg",
-      "file_type": "code",
-      "norm_label": "voidsaleport",
-      "source_file": "apps/api/src/modules/sales/void-sale.ts",
-      "source_location": "L12"
     },
     {
       "id": "apps_api_src_adapters_postgres_session_authenticator_postgressessionauthenticator_authenticate",
@@ -1938,6 +2016,126 @@
       "source_location": "L95"
     },
     {
+      "id": "apps_api_src_modules_demo_seed_demo_ensurenamedresource",
+      "label": "ensureNamedResource()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "seed-demo.ts",
+      "file_type": "code",
+      "norm_label": "ensurenamedresource()",
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L41"
+    },
+    {
+      "id": "apps_api_src_modules_demo_seed_demo_findworkshop",
+      "label": "findWorkshop()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "seed-demo.ts",
+      "file_type": "code",
+      "norm_label": "findworkshop()",
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L28"
+    },
+    {
+      "id": "apps_api_src_modules_demo_seed_demo_seeddemo",
+      "label": "seedDemo()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "seed-demo.ts",
+      "file_type": "code",
+      "norm_label": "seeddemo()",
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L49"
+    },
+    {
+      "id": "scripts_seed_demo_required",
+      "label": "required()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "seed-demo.ts",
+      "file_type": "code",
+      "norm_label": "required()",
+      "source_file": "scripts/seed-demo.mjs",
+      "source_location": "L5"
+    },
+    {
+      "id": "apps_api_src_modules_sales_void_sale_voidsale",
+      "label": "voidSale()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "void-sale.test.ts",
+      "file_type": "code",
+      "norm_label": "voidsale()",
+      "source_file": "apps/api/src/modules/sales/void-sale.ts",
+      "source_location": "L42"
+    },
+    {
+      "id": "apps_api_tests_void_sale_test_appendauditlog",
+      "label": "appendAuditLog()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "void-sale.test.ts",
+      "file_type": "code",
+      "norm_label": "appendauditlog()",
+      "source_file": "apps/api/tests/void-sale.test.ts",
+      "source_location": "L27"
+    },
+    {
+      "id": "apps_api_tests_void_sale_test_applyinventorymovements",
+      "label": "applyInventoryMovements()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "void-sale.test.ts",
+      "file_type": "code",
+      "norm_label": "applyinventorymovements()",
+      "source_file": "apps/api/tests/void-sale.test.ts",
+      "source_location": "L24"
+    },
+    {
+      "id": "apps_api_tests_void_sale_test_getcompletedsale",
+      "label": "getCompletedSale()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "void-sale.test.ts",
+      "file_type": "code",
+      "norm_label": "getcompletedsale()",
+      "source_file": "apps/api/tests/void-sale.test.ts",
+      "source_location": "L12"
+    },
+    {
+      "id": "apps_api_tests_void_sale_test_intransaction",
+      "label": "inTransaction()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "void-sale.test.ts",
+      "file_type": "code",
+      "norm_label": "intransaction()",
+      "source_file": "apps/api/tests/void-sale.test.ts",
+      "source_location": "L9"
+    },
+    {
+      "id": "apps_api_tests_void_sale_test_marksalevoid",
+      "label": "markSaleVoid()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "void-sale.test.ts",
+      "file_type": "code",
+      "norm_label": "marksalevoid()",
+      "source_file": "apps/api/tests/void-sale.test.ts",
+      "source_location": "L21"
+    },
+    {
       "id": "apps_api_src_modules_purchases_complete_purchase_completepurchase",
       "label": "completePurchase()",
       "_callable": true,
@@ -2152,78 +2350,6 @@
       "norm_label": ".withapitransaction()",
       "source_file": "apps/api/src/adapters/postgres-auth-port.ts",
       "source_location": "L123"
-    },
-    {
-      "id": "apps_api_src_modules_sales_void_sale_voidsale",
-      "label": "voidSale()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "pg",
-      "file_type": "code",
-      "norm_label": "voidsale()",
-      "source_file": "apps/api/src/modules/sales/void-sale.ts",
-      "source_location": "L42"
-    },
-    {
-      "id": "apps_api_tests_void_sale_test_appendauditlog",
-      "label": "appendAuditLog()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "pg",
-      "file_type": "code",
-      "norm_label": "appendauditlog()",
-      "source_file": "apps/api/tests/void-sale.test.ts",
-      "source_location": "L27"
-    },
-    {
-      "id": "apps_api_tests_void_sale_test_applyinventorymovements",
-      "label": "applyInventoryMovements()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "pg",
-      "file_type": "code",
-      "norm_label": "applyinventorymovements()",
-      "source_file": "apps/api/tests/void-sale.test.ts",
-      "source_location": "L24"
-    },
-    {
-      "id": "apps_api_tests_void_sale_test_getcompletedsale",
-      "label": "getCompletedSale()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "pg",
-      "file_type": "code",
-      "norm_label": "getcompletedsale()",
-      "source_file": "apps/api/tests/void-sale.test.ts",
-      "source_location": "L12"
-    },
-    {
-      "id": "apps_api_tests_void_sale_test_intransaction",
-      "label": "inTransaction()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "pg",
-      "file_type": "code",
-      "norm_label": "intransaction()",
-      "source_file": "apps/api/tests/void-sale.test.ts",
-      "source_location": "L9"
-    },
-    {
-      "id": "apps_api_tests_void_sale_test_marksalevoid",
-      "label": "markSaleVoid()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "pg",
-      "file_type": "code",
-      "norm_label": "marksalevoid()",
-      "source_file": "apps/api/tests/void-sale.test.ts",
-      "source_location": "L21"
     },
     {
       "id": "apps_api_migrations_001_initial",
@@ -4107,6 +4233,18 @@
       "source_location": "L1"
     },
     {
+      "id": "readme_auto_drive",
+      "label": "auto-drive",
+      "_origin": "ast",
+      "community": 26,
+      "community_name": "Auto Drive \u2014 POS Bengkel MVP",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "auto-drive",
+      "source_file": "README.md",
+      "source_location": "L25"
+    },
+    {
       "id": "readme_auto_drive_pos_bengkel_mvp",
       "label": "Auto Drive \u2014 POS Bengkel MVP",
       "_origin": "ast",
@@ -4128,7 +4266,19 @@
       "node_kind": "heading",
       "norm_label": "catatan keamanan",
       "source_file": "README.md",
-      "source_location": "L16"
+      "source_location": "L22"
+    },
+    {
+      "id": "readme_data_demo_lokal",
+      "label": "Data demo lokal",
+      "_origin": "ast",
+      "community": 26,
+      "community_name": "Auto Drive \u2014 POS Bengkel MVP",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "data demo lokal",
+      "source_file": "README.md",
+      "source_location": "L14"
     },
     {
       "id": "readme_menjalankan_environment_lokal",
@@ -4217,7 +4367,7 @@
       "file_type": "code",
       "norm_label": "dependencies",
       "source_file": "package.json",
-      "source_location": "L12"
+      "source_location": "L13"
     },
     {
       "id": "package_dependencies_fastify",
@@ -4228,7 +4378,7 @@
       "file_type": "code",
       "norm_label": "fastify",
       "source_file": "package.json",
-      "source_location": "L13"
+      "source_location": "L14"
     },
     {
       "id": "package_dependencies_pg",
@@ -4239,7 +4389,7 @@
       "file_type": "code",
       "norm_label": "pg",
       "source_file": "package.json",
-      "source_location": "L14"
+      "source_location": "L15"
     },
     {
       "id": "package_dependencies_zod",
@@ -4250,7 +4400,7 @@
       "file_type": "code",
       "norm_label": "zod",
       "source_file": "package.json",
-      "source_location": "L15"
+      "source_location": "L16"
     },
     {
       "id": "package_devdependencies",
@@ -4261,7 +4411,7 @@
       "file_type": "code",
       "norm_label": "devdependencies",
       "source_file": "package.json",
-      "source_location": "L17"
+      "source_location": "L18"
     },
     {
       "id": "package_devdependencies_types_node",
@@ -4272,7 +4422,7 @@
       "file_type": "code",
       "norm_label": "@types/node",
       "source_file": "package.json",
-      "source_location": "L18"
+      "source_location": "L19"
     },
     {
       "id": "package_devdependencies_types_pg",
@@ -4283,7 +4433,7 @@
       "file_type": "code",
       "norm_label": "@types/pg",
       "source_file": "package.json",
-      "source_location": "L19"
+      "source_location": "L20"
     },
     {
       "id": "package_devdependencies_typescript",
@@ -4294,7 +4444,7 @@
       "file_type": "code",
       "norm_label": "typescript",
       "source_file": "package.json",
-      "source_location": "L20"
+      "source_location": "L21"
     },
     {
       "id": "package_name",
@@ -4341,6 +4491,17 @@
       "source_location": "L9"
     },
     {
+      "id": "package_scripts_seed_demo",
+      "label": "seed:demo",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "seed:demo",
+      "source_file": "package.json",
+      "source_location": "L10"
+    },
+    {
       "id": "package_scripts_start_api",
       "label": "start:api",
       "_origin": "ast",
@@ -4349,7 +4510,7 @@
       "file_type": "code",
       "norm_label": "start:api",
       "source_file": "package.json",
-      "source_location": "L10"
+      "source_location": "L11"
     },
     {
       "id": "package_scripts_test",
@@ -4404,7 +4565,7 @@
       "file_type": "concept",
       "norm_label": "fastify",
       "source_file": "package.json",
-      "source_location": "L13"
+      "source_location": "L14"
     },
     {
       "id": "ref_types_node",
@@ -4415,7 +4576,7 @@
       "file_type": "concept",
       "norm_label": "@types/node",
       "source_file": "package.json",
-      "source_location": "L18"
+      "source_location": "L19"
     },
     {
       "id": "ref_types_pg",
@@ -4426,7 +4587,7 @@
       "file_type": "concept",
       "norm_label": "@types/pg",
       "source_file": "package.json",
-      "source_location": "L19"
+      "source_location": "L20"
     },
     {
       "id": "ref_typescript",
@@ -4437,7 +4598,7 @@
       "file_type": "concept",
       "norm_label": "typescript",
       "source_file": "package.json",
-      "source_location": "L20"
+      "source_location": "L21"
     },
     {
       "id": "ref_zod",
@@ -4448,7 +4609,7 @@
       "file_type": "concept",
       "norm_label": "zod",
       "source_file": "package.json",
-      "source_location": "L15"
+      "source_location": "L16"
     },
     {
       "id": "apps_api_migrations_009_crm_access",
@@ -4665,6 +4826,83 @@
       "source_location": null
     },
     {
+      "id": "apps_api_src_modules_demo_seed_demo",
+      "label": "seed-demo.ts",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "seed-demo.ts",
+      "file_type": "code",
+      "norm_label": "seed-demo.ts",
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_seed_demo",
+      "label": "seed-demo.mjs",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "seed-demo.ts",
+      "file_type": "code",
+      "norm_label": "seed-demo.mjs",
+      "source_file": "scripts/seed-demo.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_seed_demo_database",
+      "label": "database",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "seed-demo.ts",
+      "file_type": "code",
+      "norm_label": "database",
+      "source_file": "scripts/seed-demo.mjs",
+      "source_location": "L16"
+    },
+    {
+      "id": "scripts_seed_demo_databaseurl",
+      "label": "databaseUrl",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "seed-demo.ts",
+      "file_type": "code",
+      "norm_label": "databaseurl",
+      "source_file": "scripts/seed-demo.mjs",
+      "source_location": "L15"
+    },
+    {
+      "id": "scripts_seed_demo_pool",
+      "label": "pool",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "seed-demo.ts",
+      "file_type": "code",
+      "norm_label": "pool",
+      "source_file": "scripts/seed-demo.mjs",
+      "source_location": "L21"
+    },
+    {
+      "id": "apps_api_src_modules_sales_void_sale",
+      "label": "void-sale.ts",
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "void-sale.test.ts",
+      "file_type": "code",
+      "norm_label": "void-sale.ts",
+      "source_file": "apps/api/src/modules/sales/void-sale.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "apps_api_tests_void_sale_test",
+      "label": "void-sale.test.ts",
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "void-sale.test.ts",
+      "file_type": "code",
+      "norm_label": "void-sale.test.ts",
+      "source_file": "apps/api/tests/void-sale.test.ts",
+      "source_location": "L1"
+    },
+    {
       "id": "apps_api_src_modules_purchases_complete_purchase",
       "label": "complete-purchase.ts",
       "_origin": "ast",
@@ -4850,17 +5088,6 @@
       "source_location": "L1"
     },
     {
-      "id": "apps_api_src_modules_sales_void_sale",
-      "label": "void-sale.ts",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "pg",
-      "file_type": "code",
-      "norm_label": "void-sale.ts",
-      "source_file": "apps/api/src/modules/sales/void-sale.ts",
-      "source_location": "L1"
-    },
-    {
       "id": "apps_api_tests_postgres_adjustment_http_test",
       "label": "postgres-adjustment-http.test.ts",
       "_origin": "ast",
@@ -4938,6 +5165,17 @@
       "source_location": "L1"
     },
     {
+      "id": "apps_api_tests_postgres_demo_seed_test",
+      "label": "postgres-demo-seed.test.ts",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "pg",
+      "file_type": "code",
+      "norm_label": "postgres-demo-seed.test.ts",
+      "source_file": "apps/api/tests/postgres-demo-seed.test.ts",
+      "source_location": "L1"
+    },
+    {
       "id": "apps_api_tests_postgres_pos_http_test",
       "label": "postgres-pos-http.test.ts",
       "_origin": "ast",
@@ -4993,17 +5231,6 @@
       "source_location": "L1"
     },
     {
-      "id": "apps_api_tests_void_sale_test",
-      "label": "void-sale.test.ts",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "pg",
-      "file_type": "code",
-      "norm_label": "void-sale.test.ts",
-      "source_file": "apps/api/tests/void-sale.test.ts",
-      "source_location": "L1"
-    },
-    {
       "id": "ref_pg",
       "label": "pg",
       "_origin": "ast",
@@ -5012,7 +5239,7 @@
       "file_type": "concept",
       "norm_label": "pg",
       "source_file": "package.json",
-      "source_location": "L14"
+      "source_location": "L15"
     },
     {
       "id": "apps_api_migrations_006_purchases",
@@ -5172,6 +5399,18 @@
       "type": "external"
     },
     {
+      "id": "apps_api_tests_test_database_databaseurl",
+      "label": "apps_api_tests_test_database_databaseurl",
+      "_origin": "semantic",
+      "community": 8,
+      "community_name": "pg",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "apps_api_tests_test_database_databaseurl",
+      "source_file": "",
+      "type": "external"
+    },
+    {
       "id": "ref_node_assert",
       "label": "ref_node_assert",
       "_origin": "semantic",
@@ -5204,17 +5443,6 @@
       "external": true,
       "file_type": "concept",
       "norm_label": "ref_node_test",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "apps_api_tests_test_database_databaseurl",
-      "label": "apps_api_tests_test_database_databaseurl",
-      "community": 8,
-      "community_name": "pg",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "apps_api_tests_test_database_databaseurl",
       "source_file": "",
       "type": "external"
     }
@@ -6301,6 +6529,42 @@
       "weight": 1.0
     },
     {
+      "source": "apps_api_src_modules_demo_seed_demo_seeddemo",
+      "target": "apps_api_src_server_buildapp",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_src_modules_demo_seed_demo_seeddemo",
+      "target": "apps_api_src_modules_demo_seed_demo_findworkshop",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_src_modules_demo_seed_demo_seeddemo",
+      "target": "apps_api_src_modules_demo_seed_demo_ensurenamedresource",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
       "source": "apps_api_src_modules_owner_operations_owner_operations_getdashboard",
       "target": "apps_api_src_modules_owner_operations_owner_operations_requireowner",
       "relation": "calls",
@@ -6994,6 +7258,18 @@
       "context": "call",
       "source_file": "apps/api/src/server.ts",
       "source_location": "L797",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_src_modules_demo_seed_demo",
+      "target": "apps_api_src_server_buildapp",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -7801,6 +8077,42 @@
       "weight": 1.0
     },
     {
+      "source": "apps_api_tests_postgres_demo_seed_test",
+      "target": "apps_api_tests_test_database_databaseurl",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "apps/api/tests/postgres-demo-seed.test.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_tests_postgres_demo_seed_test",
+      "target": "apps_api_src_modules_demo_seed_demo_seeddemo",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "apps/api/tests/postgres-demo-seed.test.ts",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_tests_postgres_demo_seed_test",
+      "target": "apps_api_src_server_buildapp",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "apps/api/tests/postgres-demo-seed.test.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
       "source": "apps_api_tests_postgres_pos_http_test",
       "target": "apps_api_tests_test_database_databaseurl",
       "relation": "imports",
@@ -7965,7 +8277,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L13",
+      "source_location": "L14",
       "weight": 1.0
     },
     {
@@ -7977,7 +8289,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L14",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -7989,7 +8301,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L15",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -8001,7 +8313,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L18",
+      "source_location": "L19",
       "weight": 1.0
     },
     {
@@ -8013,7 +8325,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L19",
+      "source_location": "L20",
       "weight": 1.0
     },
     {
@@ -8025,7 +8337,19 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L20",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_seed_demo",
+      "target": "apps_api_src_modules_demo_seed_demo_seeddemo",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "scripts/seed-demo.mjs",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -8204,6 +8528,44 @@
       "context": "import",
       "source_file": "apps/api/src/modules/auth/auth.ts",
       "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_src_modules_demo_seed_demo",
+      "target": "ref_pg",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L1",
+      "type_only": true,
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_src_modules_demo_seed_demo",
+      "target": "ref_fastify",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L2",
+      "type_only": true,
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_src_modules_demo_seed_demo",
+      "target": "apps_api_src_server",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -9036,6 +9398,90 @@
       "weight": 1.0
     },
     {
+      "source": "apps_api_tests_postgres_demo_seed_test",
+      "target": "ref_node_assert",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "apps/api/tests/postgres-demo-seed.test.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_tests_postgres_demo_seed_test",
+      "target": "ref_node_crypto",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "apps/api/tests/postgres-demo-seed.test.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_tests_postgres_demo_seed_test",
+      "target": "ref_node_test",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "apps/api/tests/postgres-demo-seed.test.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_tests_postgres_demo_seed_test",
+      "target": "ref_pg",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "apps/api/tests/postgres-demo-seed.test.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_tests_postgres_demo_seed_test",
+      "target": "apps_api_tests_test_database",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "apps/api/tests/postgres-demo-seed.test.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_tests_postgres_demo_seed_test",
+      "target": "apps_api_src_modules_demo_seed_demo",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "apps/api/tests/postgres-demo-seed.test.ts",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_tests_postgres_demo_seed_test",
+      "target": "apps_api_src_server",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "apps/api/tests/postgres-demo-seed.test.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
       "source": "apps_api_tests_postgres_pos_http_test",
       "target": "ref_node_assert",
       "relation": "imports_from",
@@ -9440,6 +9886,30 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "scripts/migrate.mjs",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_seed_demo",
+      "target": "ref_pg",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "scripts/seed-demo.mjs",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_seed_demo",
+      "target": "apps_api_src_modules_demo_seed_demo",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "scripts/seed-demo.mjs",
       "source_location": "L3",
       "weight": 1.0
     },
@@ -10830,6 +11300,105 @@
       "weight": 1.0
     },
     {
+      "source": "apps_api_src_modules_demo_seed_demo",
+      "target": "apps_api_src_modules_demo_seed_demo_app",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_src_modules_demo_seed_demo",
+      "target": "apps_api_src_modules_demo_seed_demo_namedresource",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_src_modules_demo_seed_demo",
+      "target": "apps_api_src_modules_demo_seed_demo_product",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_src_modules_demo_seed_demo",
+      "target": "apps_api_src_modules_demo_seed_demo_vehicle",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_src_modules_demo_seed_demo",
+      "target": "apps_api_src_modules_demo_seed_demo_request",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_src_modules_demo_seed_demo",
+      "target": "apps_api_src_modules_demo_seed_demo_findworkshop",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_src_modules_demo_seed_demo",
+      "target": "apps_api_src_modules_demo_seed_demo_ensurenamedresource",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_src_modules_demo_seed_demo",
+      "target": "apps_api_src_modules_demo_seed_demo_seeddemo",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "apps_api_src_modules_demo_seed_demo",
+      "target": "apps_api_src_modules_demo_seed_demo_seedinput",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/api/src/modules/demo/seed-demo.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
       "source": "apps_api_src_modules_inventory_adjust_inventory",
       "target": "apps_api_src_modules_inventory_adjust_inventory_actor",
       "relation": "contains",
@@ -12135,7 +12704,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0
     },
     {
@@ -12146,7 +12715,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L17",
+      "source_location": "L18",
       "weight": 1.0
     },
     {
@@ -12201,7 +12770,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L13",
+      "source_location": "L14",
       "weight": 1.0
     },
     {
@@ -12212,7 +12781,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L14",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -12223,7 +12792,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L15",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -12234,7 +12803,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L18",
+      "source_location": "L19",
       "weight": 1.0
     },
     {
@@ -12245,7 +12814,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L19",
+      "source_location": "L20",
       "weight": 1.0
     },
     {
@@ -12256,7 +12825,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L20",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_seed_demo",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -12267,7 +12847,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L10",
+      "source_location": "L11",
       "weight": 1.0
     },
     {
@@ -12392,6 +12972,28 @@
       "weight": 1.0
     },
     {
+      "source": "readme",
+      "target": "readme_auto_drive",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_auto_drive_pos_bengkel_mvp",
+      "target": "readme_data_demo_lokal",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
       "source": "readme_auto_drive_pos_bengkel_mvp",
       "target": "readme_catatan_keamanan",
       "relation": "contains",
@@ -12399,7 +13001,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L16",
+      "source_location": "L22",
       "weight": 1.0
     },
     {
@@ -12455,6 +13057,50 @@
       "confidence_score": 1.0,
       "source_file": "scripts/require-test-database.mjs",
       "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_seed_demo",
+      "target": "scripts_seed_demo_databaseurl",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/seed-demo.mjs",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_seed_demo",
+      "target": "scripts_seed_demo_database",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/seed-demo.mjs",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_seed_demo",
+      "target": "scripts_seed_demo_pool",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/seed-demo.mjs",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_seed_demo",
+      "target": "scripts_seed_demo_required",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/seed-demo.mjs",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -14207,5 +14853,6 @@
       "weight": 1.0
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "c992269191b5402e27b9ce6c59a0b6ec968fa5d4"
 }

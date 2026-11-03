@@ -7,6 +7,7 @@
     "test:unit": "node --test apps/api/tests/checkout.test.ts apps/api/tests/purchase.test.ts apps/api/tests/server.test.ts apps/api/tests/void-sale.test.ts",
     "typecheck": "tsc --noEmit",
     "migrate": "node scripts/migrate.mjs",
+    "seed:demo": "node scripts/seed-demo.mjs",
     "start:api": "node apps/api/src/server.ts"
   },
   "dependencies": {

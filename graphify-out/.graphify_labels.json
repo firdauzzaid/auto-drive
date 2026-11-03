@@ -39,5 +39,7 @@
   "37": "Operasional API dan Database",
   "38": "require-test-database.mjs",
   "39": "023_runtime_database_role.sql",
-  "40": "025_session_cleanup.sql"
+  "40": "025_session_cleanup.sql",
+  "41": "seed-demo.ts",
+  "42": "void-sale.test.ts"
 }

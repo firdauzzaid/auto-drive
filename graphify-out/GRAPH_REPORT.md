@@ -1,14 +1,19 @@
 # Graph Report - auto-drive  (2026-11-03)
 
 ## Corpus Check
-- 74 files · ~27,018 words
+- 77 files · ~28,272 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 4 file(s) not represented in the graph (top: (none) 3, .example 1)
 
 ## Summary
-- 447 nodes · 784 edges · 41 communities (21 shown, 20 thin omitted)
+- 466 nodes · 820 edges · 43 communities (23 shown, 20 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `c9922691`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - 001_initial.sql
@@ -41,11 +46,13 @@
 - migrate.mjs
 - Operasional API dan Database
 - require-test-database.mjs
+- seed-demo.ts
+- void-sale.test.ts
 
 ## God Nodes (most connected - your core abstractions)
-1. `buildApp()` - 57 edges
-2. `PostgresCatalogPort` - 23 edges
-3. `pg` - 23 edges
+1. `buildApp()` - 60 edges
+2. `pg` - 26 edges
+3. `PostgresCatalogPort` - 23 edges
 4. `workshops` - 16 edges
 5. `PostgresCheckoutPort` - 16 edges
 6. `PostgresAuthPort` - 15 edges
@@ -69,7 +76,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (41 total, 20 thin omitted)
+## Communities (43 total, 20 thin omitted)
 
 ### Community 0 - "001_initial.sql"
 Cohesion: 0.06
@@ -84,8 +91,8 @@ Cohesion: 0.15
 Nodes (3): PostgresCatalogPort, productAuditValue(), ProductRow
 
 ### Community 3 - "package.json"
-Cohesion: 0.09
-Nodes (22): dependencies, fastify, pg, zod, devDependencies, @types/node, @types/pg, typescript (+14 more)
+Cohesion: 0.08
+Nodes (23): dependencies, fastify, pg, zod, devDependencies, @types/node, @types/pg, typescript (+15 more)
 
 ### Community 5 - "purchase.test.ts"
 Cohesion: 0.17
@@ -96,8 +103,8 @@ Cohesion: 0.22
 Nodes (8): Batas perubahan, Engineering operating rules, Klarifikasi dan konteks, Perbaikan bug, Perlindungan data dan database, Prinsip akhir, Urutan kerja, Validasi dan performa
 
 ### Community 8 - "pg"
-Cohesion: 0.14
-Nodes (13): InventoryMovement, ProductRow, SaleItem, ProductRow, Actor, voidSale(), VoidSaleInput, VoidSalePort (+5 more)
+Cohesion: 0.24
+Nodes (9): InventoryMovement, ProductRow, SaleItem, ProductRow, apps_api_tests_test_database_databaseurl, ref_node_assert, ref_node_crypto, ref_node_test (+1 more)
 
 ### Community 9 - "006_purchases.sql"
 Cohesion: 0.29
@@ -144,8 +151,8 @@ Cohesion: 0.40
 Nodes (4): Environment, Pilihan MVP, Tech Stack, Yang sengaja tidak digunakan
 
 ### Community 26 - "Auto Drive — POS Bengkel MVP"
-Cohesion: 0.50
-Nodes (3): Auto Drive — POS Bengkel MVP, Catatan keamanan, Menjalankan environment lokal
+Cohesion: 0.33
+Nodes (5): auto-drive, Auto Drive — POS Bengkel MVP, Catatan keamanan, Data demo lokal, Menjalankan environment lokal
 
 ### Community 36 - "migrate.mjs"
 Cohesion: 0.33
@@ -155,25 +162,33 @@ Nodes (5): ref_node_fs, ref_node_path, client, migrationDirectory, migrationName
 Cohesion: 0.40
 Nodes (4): Backup dan restore, Health check, Operasional API dan Database, Role database
 
+### Community 41 - "seed-demo.ts"
+Cohesion: 0.16
+Nodes (12): App, ensureNamedResource(), findWorkshop(), NamedResource, Product, Request, seedDemo(), SeedInput (+4 more)
+
+### Community 42 - "void-sale.test.ts"
+Cohesion: 0.20
+Nodes (4): Actor, voidSale(), VoidSaleInput, VoidSalePort
+
 ## Knowledge Gaps
-- **131 isolated node(s):** `ProductRow`, `ProductRow`, `SaleItem`, `InventoryMovement`, `ProductRow` (+126 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 204 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **143 isolated node(s):** `ProductRow`, `ProductRow`, `SaleItem`, `InventoryMovement`, `ProductRow` (+138 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 216 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **20 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `buildApp()` connect `server.ts` to `PostgresCatalogPort`, `PostgresCheckoutPort`, `purchase.test.ts`, `PostgresAuthPort`, `pg`, `PostgresCrmPort`, `PostgresPurchasePort`, `PostgresVoidSalePort`, `PostgresOwnerOperationsPort`, `owner-operations.ts`, `PostgresInventoryPort`, `PostgresReceiptPort`, `complete-sale.ts`?**
-  _High betweenness centrality (0.054) - this node is a cross-community bridge._
+- **Why does `buildApp()` connect `server.ts` to `PostgresCatalogPort`, `PostgresCheckoutPort`, `purchase.test.ts`, `PostgresAuthPort`, `pg`, `seed-demo.ts`, `void-sale.test.ts`, `PostgresCrmPort`, `PostgresPurchasePort`, `PostgresVoidSalePort`, `PostgresOwnerOperationsPort`, `owner-operations.ts`, `PostgresInventoryPort`, `PostgresReceiptPort`, `complete-sale.ts`?**
+  _High betweenness centrality (0.060) - this node is a cross-community bridge._
+- **Why does `pg` connect `pg` to `server.ts`, `PostgresCatalogPort`, `package.json`, `migrate.mjs`, `seed-demo.ts`, `PostgresCrmPort`, `PostgresOwnerOperationsPort`, `PostgresInventoryPort`, `PostgresReceiptPort`?**
+  _High betweenness centrality (0.057) - this node is a cross-community bridge._
 - **Why does `PostgresCatalogPort` connect `PostgresCatalogPort` to `server.ts`?**
-  _High betweenness centrality (0.052) - this node is a cross-community bridge._
-- **Why does `pg` connect `pg` to `server.ts`, `PostgresCatalogPort`, `package.json`, `migrate.mjs`, `PostgresCrmPort`, `PostgresOwnerOperationsPort`, `PostgresInventoryPort`, `PostgresReceiptPort`?**
-  _High betweenness centrality (0.049) - this node is a cross-community bridge._
+  _High betweenness centrality (0.051) - this node is a cross-community bridge._
 - **What connects `ProductRow`, `ProductRow`, `SaleItem` to the rest of the system?**
-  _131 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _143 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `001_initial.sql` be split into smaller, more focused modules?**
   _Cohesion score 0.057859703020993344 - nodes in this community are weakly interconnected._
 - **Should `server.ts` be split into smaller, more focused modules?**
   _Cohesion score 0.05030834144758196 - nodes in this community are weakly interconnected._
 - **Should `package.json` be split into smaller, more focused modules?**
-  _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
