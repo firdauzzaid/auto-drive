@@ -1,0 +1,1 @@
+{"nodes": [{"id": "$graphify-root$_apps_api_migrations_019_product_cost_update_access_sql", "label": "019_product_cost_update_access.sql", "file_type": "code", "source_file": "apps/api/migrations/019_product_cost_update_access.sql", "source_location": null}], "edges": []}

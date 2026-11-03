@@ -1,0 +1,1 @@
+{"nodes": [{"id": "$graphify-root$_apps_api_migrations_021_supplier_write_access_sql", "label": "021_supplier_write_access.sql", "file_type": "code", "source_file": "apps/api/migrations/021_supplier_write_access.sql", "source_location": null}], "edges": []}

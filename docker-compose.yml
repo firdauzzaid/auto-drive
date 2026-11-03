@@ -1,0 +1,90 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: bengkel
+      POSTGRES_USER: bengkel_app
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bengkel_app -d bengkel"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  postgres_test:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: bengkel_test
+      POSTGRES_USER: bengkel_app
+      POSTGRES_PASSWORD: ${TEST_POSTGRES_PASSWORD:?set TEST_POSTGRES_PASSWORD in .env}
+    ports:
+      - "5434:5432"
+    volumes:
+      - postgres_test_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bengkel_app -d bengkel_test"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  api:
+    build:
+      context: .
+    environment:
+      DATABASE_URL: postgresql://bengkel_runtime:${APP_DATABASE_PASSWORD:?set APP_DATABASE_PASSWORD in .env}@postgres:5432/bengkel
+      PORT: 3000
+    ports:
+      - "3000:3000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/ready').then((response) => process.exit(response.ok ? 0 : 1)).catch(() => process.exit(1))"]
+      interval: 10s
+      timeout: 3s
+      retries: 6
+
+  migrate:
+    build:
+      context: .
+    profiles: ["migrate"]
+    command: ["npm", "run", "migrate"]
+    environment:
+      MIGRATIONS_DATABASE_URL: postgresql://bengkel_app:${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}@postgres:5432/bengkel
+      APP_DATABASE_PASSWORD: ${APP_DATABASE_PASSWORD:?set APP_DATABASE_PASSWORD in .env}
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  migrate_test:
+    build:
+      context: .
+    profiles: ["migrate"]
+    command: ["npm", "run", "migrate"]
+    environment:
+      MIGRATIONS_DATABASE_URL: postgresql://bengkel_app:${TEST_POSTGRES_PASSWORD:?set TEST_POSTGRES_PASSWORD in .env}@postgres_test:5432/bengkel_test
+      APP_DATABASE_PASSWORD: ${APP_DATABASE_PASSWORD:?set APP_DATABASE_PASSWORD in .env}
+    depends_on:
+      postgres_test:
+        condition: service_healthy
+
+  minio:
+    image: minio/minio:latest
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:?set MINIO_ROOT_USER in .env}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?set MINIO_ROOT_PASSWORD in .env}
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio_data:/data
+
+volumes:
+  postgres_data:
+  postgres_test_data:
+  minio_data:

@@ -1,0 +1,452 @@
+{
+  "docs/BRD-ANALYSIS.md": {
+    "mtime": 1793668965.8005106,
+    "seen": 1793669470.4825914,
+    "ast_hash": "47c6a4735e9cce7c36c4995e4f9dee5c",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1793669617.8185635,
+    "seen": 1793669639.7086058,
+    "ast_hash": "ed550331549c3fd440cce66e2ee865f1",
+    "semantic_hash": ""
+  },
+  "DESIGN.md": {
+    "mtime": 1793669619.4549408,
+    "seen": 1793669639.7086155,
+    "ast_hash": "27995ff4a52ff1cdb7b7cce81851435c",
+    "semantic_hash": ""
+  },
+  "PRODUCT.md": {
+    "mtime": 1793669618.6395392,
+    "seen": 1793669639.70862,
+    "ast_hash": "8b19e9567bc2158900d7c92655277796",
+    "semantic_hash": ""
+  },
+  "docs/ARCHITECTURE.md": {
+    "mtime": 1793671267.7997763,
+    "seen": 1793671284.3860195,
+    "ast_hash": "30fea4a42559e37c35e33b8503eb4a1d",
+    "semantic_hash": ""
+  },
+  "docs/DATABASE.md": {
+    "mtime": 1793691894.680679,
+    "seen": 1793691939.4969337,
+    "ast_hash": "9b53a42263ac10259bc0046c755a511c",
+    "semantic_hash": ""
+  },
+  "docs/PRD.md": {
+    "mtime": 1793669620.2282887,
+    "seen": 1793669639.7086382,
+    "ast_hash": "637e643427b56751d502825e45224b92",
+    "semantic_hash": ""
+  },
+  "docs/TECH-STACK.md": {
+    "mtime": 1793671268.257321,
+    "seen": 1793671284.3860254,
+    "ast_hash": "09d563cb5981d48bef2c6f4936edaa9c",
+    "semantic_hash": ""
+  },
+  "apps/api/src/modules/sales/complete-sale.ts": {
+    "mtime": 1793690722.8072865,
+    "seen": 1793691939.4968932,
+    "ast_hash": "8f25289b390e2af45e24118fa8dd8801",
+    "semantic_hash": ""
+  },
+  "apps/api/tests/checkout.test.ts": {
+    "mtime": 1793690659.0498705,
+    "seen": 1793691939.4968987,
+    "ast_hash": "aa15ee78aff306aaad32cf2f0daa1877",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1793691795.0210476,
+    "seen": 1793691939.4969182,
+    "ast_hash": "72a2826eef577170514fba3dad9e0df3",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/001_initial.sql": {
+    "mtime": 1793670567.4805584,
+    "seen": 1793671070.4174902,
+    "ast_hash": "c91126838e2c7731bdbdf5cea04974a1",
+    "semantic_hash": ""
+  },
+  "apps/api/src/adapters/postgres-checkout-port.ts": {
+    "mtime": 1793679347.4230828,
+    "seen": 1793679383.063502,
+    "ast_hash": "babe31745a7215762582183a2830dbdc",
+    "semantic_hash": ""
+  },
+  "apps/api/src/server.ts": {
+    "mtime": 1793691518.2974014,
+    "seen": 1793691939.4968972,
+    "ast_hash": "f9aa79eee4963e3575987581bb727003",
+    "semantic_hash": ""
+  },
+  "apps/api/tests/postgres-checkout.test.ts": {
+    "mtime": 1793690842.9780996,
+    "seen": 1793691939.4969058,
+    "ast_hash": "3ce4a988a21ec9a17b4965ddbcb981c9",
+    "semantic_hash": ""
+  },
+  "apps/api/tests/server.test.ts": {
+    "mtime": 1793691208.018075,
+    "seen": 1793691939.4969141,
+    "ast_hash": "ceb0afb75c2e8bb6597f8a0cfb06e159",
+    "semantic_hash": ""
+  },
+  "docker-compose.yml": {
+    "mtime": 1793691363.3976538,
+    "seen": 1793691939.496929,
+    "ast_hash": "10e6b22b78fca6993d93b66457116666",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/002_api_role.sql": {
+    "mtime": 1793671131.3735611,
+    "seen": 1793671284.3859932,
+    "ast_hash": "cb29e2d39e5d56e17d3c7e2a0aabbeee",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/003_lock_products.sql": {
+    "mtime": 1793671214.1361015,
+    "seen": 1793671284.3859959,
+    "ast_hash": "e524b88d0ea6f6adfcc2f43cb494da2a",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1793690967.7965083,
+    "seen": 1793691939.496928,
+    "ast_hash": "408d8a7a125e728c94464bcc1d76e546",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/004_void_audit.sql": {
+    "mtime": 1793674702.8304875,
+    "seen": 1793674910.9759874,
+    "ast_hash": "4c8b1d03b918ce0f636b04848b05492a",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/005_void_completed_at.sql": {
+    "mtime": 1793674790.0144546,
+    "seen": 1793674910.975997,
+    "ast_hash": "7779ce92f3a74d55b92918b782b9565a",
+    "semantic_hash": ""
+  },
+  "apps/api/src/adapters/postgres-void-sale-port.ts": {
+    "mtime": 1793674752.9091227,
+    "seen": 1793674910.976007,
+    "ast_hash": "860b334bc3a3bb1958e17d149d9bb002",
+    "semantic_hash": ""
+  },
+  "apps/api/src/modules/sales/void-sale.ts": {
+    "mtime": 1793674649.589728,
+    "seen": 1793674910.9760127,
+    "ast_hash": "442029414bf972d8fd7cc4bf3afecd0c",
+    "semantic_hash": ""
+  },
+  "apps/api/tests/postgres-void-sale.test.ts": {
+    "mtime": 1793690846.1773348,
+    "seen": 1793691939.4969115,
+    "ast_hash": "aa0ef965d1bec51410303ebc98d14c90",
+    "semantic_hash": ""
+  },
+  "apps/api/tests/void-sale.test.ts": {
+    "mtime": 1793674626.5842254,
+    "seen": 1793674910.9760287,
+    "ast_hash": "5f3970b93fe742990ee41064560838d5",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/006_purchases.sql": {
+    "mtime": 1793675126.9798434,
+    "seen": 1793675158.7881324,
+    "ast_hash": "72ce3b859912dcbbd4f79a8857ac3af5",
+    "semantic_hash": ""
+  },
+  "apps/api/src/adapters/postgres-purchase-port.ts": {
+    "mtime": 1793690723.8465226,
+    "seen": 1793691939.4968784,
+    "ast_hash": "454b72869a2b9b2651322e0a007d370a",
+    "semantic_hash": ""
+  },
+  "apps/api/src/modules/purchases/complete-purchase.ts": {
+    "mtime": 1793690723.3601353,
+    "seen": 1793691939.496892,
+    "ast_hash": "bdd1b6b29f15df0d0476303fca8c082b",
+    "semantic_hash": ""
+  },
+  "apps/api/tests/postgres-purchase.test.ts": {
+    "mtime": 1793690845.6685863,
+    "seen": 1793691939.4969106,
+    "ast_hash": "6ebce2eb9cf04cdcd65e9aa058b65642",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/007_auth_sessions.sql": {
+    "mtime": 1793675466.4998353,
+    "seen": 1793675519.6504169,
+    "ast_hash": "ae0639dd4adc154e2c55e1bb8f2750c4",
+    "semantic_hash": ""
+  },
+  "apps/api/src/adapters/postgres-auth-port.ts": {
+    "mtime": 1793691577.5391102,
+    "seen": 1793691939.496869,
+    "ast_hash": "f2716ad0ee0930a1498ecc07756dc061",
+    "semantic_hash": ""
+  },
+  "apps/api/src/modules/auth/auth.ts": {
+    "mtime": 1793691825.141786,
+    "seen": 1793691939.496884,
+    "ast_hash": "634505a8db49523bd3ff38e97a7634b8",
+    "semantic_hash": ""
+  },
+  "apps/api/tests/postgres-auth.test.ts": {
+    "mtime": 1793690841.7091422,
+    "seen": 1793691939.4969027,
+    "ast_hash": "2de8389638a3955c83e3f7e9980dfe74",
+    "semantic_hash": ""
+  },
+  "apps/api/tests/postgres-auth-http.test.ts": {
+    "mtime": 1793691487.181114,
+    "seen": 1793691939.4969013,
+    "ast_hash": "f5fa96fab050311f890f4772d4442f9d",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/008_catalog_access.sql": {
+    "mtime": 1793675679.7371404,
+    "seen": 1793675751.9780817,
+    "ast_hash": "e0271cd01e9355c683e48e2e8d8eea6f",
+    "semantic_hash": ""
+  },
+  "apps/api/src/adapters/postgres-catalog-port.ts": {
+    "mtime": 1793691193.0206442,
+    "seen": 1793691939.4968708,
+    "ast_hash": "fb80b780fa11b204ff810109fa76bc06",
+    "semantic_hash": ""
+  },
+  "apps/api/src/adapters/postgres-session-authenticator.ts": {
+    "mtime": 1793675680.1966398,
+    "seen": 1793675751.978091,
+    "ast_hash": "e8af0a9bbcd0954f2e8de33d882fdfd1",
+    "semantic_hash": ""
+  },
+  "apps/api/src/modules/catalog/catalog.ts": {
+    "mtime": 1793691763.2054515,
+    "seen": 1793691939.4968855,
+    "ast_hash": "b52556cc1b16e21b05140ee60e72c76c",
+    "semantic_hash": ""
+  },
+  "apps/api/tests/postgres-catalog-http.test.ts": {
+    "mtime": 1793691348.3440886,
+    "seen": 1793691939.4969044,
+    "ast_hash": "10ccfac43ed54d6e0f5d7d3b35001404",
+    "semantic_hash": ""
+  },
+  "apps/api/tests/postgres-pos-http.test.ts": {
+    "mtime": 1793691089.487521,
+    "seen": 1793691939.4969094,
+    "ast_hash": "96e0e089b4e2afb52a36471ce4ed4969",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/009_crm_access.sql": {
+    "mtime": 1793675888.0485737,
+    "seen": 1793675950.236055,
+    "ast_hash": "5808ab4f56b599a8abada0b348a62fbb",
+    "semantic_hash": ""
+  },
+  "apps/api/src/adapters/postgres-crm-port.ts": {
+    "mtime": 1793686284.447764,
+    "seen": 1793686336.96062,
+    "ast_hash": "786b8c4de9a8bdc60ec19e54aa9e083c",
+    "semantic_hash": ""
+  },
+  "apps/api/src/modules/crm/crm.ts": {
+    "mtime": 1793686283.7189775,
+    "seen": 1793686336.960649,
+    "ast_hash": "3ac905933409ce36088596e3591c794e",
+    "semantic_hash": ""
+  },
+  "apps/api/tests/postgres-crm-http.test.ts": {
+    "mtime": 1793690843.684465,
+    "seen": 1793691939.496907,
+    "ast_hash": "af13b36c3b4040ebddb05b19cc533450",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/010_expenses_dashboard.sql": {
+    "mtime": 1793676009.021098,
+    "seen": 1793676076.1856363,
+    "ast_hash": "ecd0f088e4258ad8482279b7647b2712",
+    "semantic_hash": ""
+  },
+  "apps/api/src/adapters/postgres-owner-operations-port.ts": {
+    "mtime": 1793688285.036868,
+    "seen": 1793688338.8908691,
+    "ast_hash": "f8eaca6a730af8200e58d04a82842b94",
+    "semantic_hash": ""
+  },
+  "apps/api/src/modules/owner-operations/owner-operations.ts": {
+    "mtime": 1793688284.3392987,
+    "seen": 1793688338.8908846,
+    "ast_hash": "812850e7108814dd981222507eb289c9",
+    "semantic_hash": ""
+  },
+  "apps/api/tests/postgres-dashboard-http.test.ts": {
+    "mtime": 1793690844.4060159,
+    "seen": 1793691939.496908,
+    "ast_hash": "37981daaf63f94d754134a39122b637c",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/011_tenant_integrity.sql": {
+    "mtime": 1793676718.6935165,
+    "seen": 1793676756.3408604,
+    "ast_hash": "fe2197ffeefa5000927aca72a39baec7",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/012_checkout_idempotency.sql": {
+    "mtime": 1793676836.8195107,
+    "seen": 1793676885.1766744,
+    "ast_hash": "22fd9c2cd05ffd987fdc6f5e7d1f3ae2",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/013_inventory_adjustments.sql": {
+    "mtime": 1793678424.1484501,
+    "seen": 1793678471.8928442,
+    "ast_hash": "6c4a88fd75cc521a9026bd6c910c1c3e",
+    "semantic_hash": ""
+  },
+  "apps/api/src/adapters/postgres-inventory-port.ts": {
+    "mtime": 1793678426.4157598,
+    "seen": 1793678471.892853,
+    "ast_hash": "8ccb026ae4e2d978a0c10422a0ec701d",
+    "semantic_hash": ""
+  },
+  "apps/api/src/modules/inventory/adjust-inventory.ts": {
+    "mtime": 1793678425.9035814,
+    "seen": 1793678471.8928664,
+    "ast_hash": "30dd116d565e1522a66a29af24988816",
+    "semantic_hash": ""
+  },
+  "apps/api/tests/postgres-adjustment-http.test.ts": {
+    "mtime": 1793690840.4209309,
+    "seen": 1793691939.4968998,
+    "ast_hash": "9efee6f502c81d3b42b2c39e24bc246d",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/014_cashier_memberships.sql": {
+    "mtime": 1793679759.826202,
+    "seen": 1793679867.165182,
+    "ast_hash": "efa6d0d77b5f9655d378681d2c11d1b7",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/015_fix_cashier_memberships_function.sql": {
+    "mtime": 1793679840.2333694,
+    "seen": 1793679867.165184,
+    "ast_hash": "750677068d72547b8c512aa99e8ead1c",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/016_service_category_delete_access.sql": {
+    "mtime": 1793680173.5683465,
+    "seen": 1793680197.60732,
+    "ast_hash": "db33ef5ed92f0a214025a35e82ff685a",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/017_receipt_read_access.sql": {
+    "mtime": 1793686175.3184986,
+    "seen": 1793686227.902257,
+    "ast_hash": "8f5af80682b8b04437557fc68dd983cf",
+    "semantic_hash": ""
+  },
+  "apps/api/src/adapters/postgres-receipt-port.ts": {
+    "mtime": 1793686198.688751,
+    "seen": 1793686227.9023032,
+    "ast_hash": "9ad3b1b3c2b999bdbbefb7c051f2f43f",
+    "semantic_hash": ""
+  },
+  "apps/api/src/modules/sales/get-receipt.ts": {
+    "mtime": 1793686176.2332659,
+    "seen": 1793686227.9023316,
+    "ast_hash": "f4fe66865130f58a5be7a0d7be2d7339",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/018_product_category_delete_access.sql": {
+    "mtime": 1793686791.5339994,
+    "seen": 1793686849.416687,
+    "ast_hash": "8a5da4fe238be2675552ca396765adb5",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/019_product_cost_update_access.sql": {
+    "mtime": 1793687099.9061208,
+    "seen": 1793687168.7792053,
+    "ast_hash": "4bc408403078ac94764ea964bd170a51",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/020_cashier_management.sql": {
+    "mtime": 1793687506.6955914,
+    "seen": 1793687561.2696292,
+    "ast_hash": "00b8a0d21b9d9e3ab81918aa86d47e1a",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/021_supplier_write_access.sql": {
+    "mtime": 1793687969.328075,
+    "seen": 1793688021.931345,
+    "ast_hash": "60fbbdf9efe9eae76707e511df07ba44",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/022_report_sale_items_index.sql": {
+    "mtime": 1793688285.517495,
+    "seen": 1793688338.8908572,
+    "ast_hash": "73266a564aca83dacaf46984f9205e7b",
+    "semantic_hash": ""
+  },
+  "scripts/migrate.mjs": {
+    "mtime": 1793691019.6153169,
+    "seen": 1793691939.4969196,
+    "ast_hash": "0e94ffa8d8d5e380fedce519c06d8dd8",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/023_runtime_database_role.sql": {
+    "mtime": 1793690791.485326,
+    "seen": 1793691939.4968646,
+    "ast_hash": "4f650e56c6a7b8216fe007c960192686",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/024_purchase_idempotency.sql": {
+    "mtime": 1793690724.9877894,
+    "seen": 1793691939.4968662,
+    "ast_hash": "4c6d5e691b988b225a7cf3d5681d308a",
+    "semantic_hash": ""
+  },
+  "apps/api/migrations/025_session_cleanup.sql": {
+    "mtime": 1793691515.6475658,
+    "seen": 1793691939.4968677,
+    "ast_hash": "86286eb7bff68c4503e8d95fb11e79b3",
+    "semantic_hash": ""
+  },
+  "apps/api/tests/purchase.test.ts": {
+    "mtime": 1793690659.5581164,
+    "seen": 1793691939.496913,
+    "ast_hash": "220caf783ce0ee6e330d17e91a69876f",
+    "semantic_hash": ""
+  },
+  "apps/api/tests/test-database.ts": {
+    "mtime": 1793690838.9769235,
+    "seen": 1793691939.4969153,
+    "ast_hash": "d47c7002050815c87c39c34b73654bd7",
+    "semantic_hash": ""
+  },
+  "scripts/require-test-database.mjs": {
+    "mtime": 1793690839.636278,
+    "seen": 1793691939.4969206,
+    "ast_hash": "d32cd3322106823842d0bd8067e4cda1",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1793691801.5369415,
+    "seen": 1793691939.4969218,
+    "ast_hash": "b3f07f286df9f88ea1191143c4e696bf",
+    "semantic_hash": ""
+  },
+  "docs/OPERATIONS.md": {
+    "mtime": 1793691895.3414786,
+    "seen": 1793691939.496935,
+    "ast_hash": "1f43427cc0c18ab63d13bb1865916c7b",
+    "semantic_hash": ""
+  }
+}

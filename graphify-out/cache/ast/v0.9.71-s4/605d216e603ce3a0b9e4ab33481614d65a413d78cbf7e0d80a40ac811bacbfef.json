@@ -1,0 +1,1 @@
+{"nodes": [{"id": "$graphify-root$_apps_api_migrations_016_service_category_delete_access_sql", "label": "016_service_category_delete_access.sql", "file_type": "code", "source_file": "apps/api/migrations/016_service_category_delete_access.sql", "source_location": null}], "edges": []}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "$graphify-root$_apps_api_migrations_017_receipt_read_access_sql", "label": "017_receipt_read_access.sql", "file_type": "code", "source_file": "apps/api/migrations/017_receipt_read_access.sql", "source_location": null}], "edges": []}

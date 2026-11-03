@@ -1,0 +1,9 @@
+DO $$
+BEGIN
+  CREATE ROLE bengkel_runtime LOGIN NOINHERIT NOSUPERUSER NOCREATEDB NOCREATEROLE NOBYPASSRLS;
+EXCEPTION
+  WHEN duplicate_object THEN NULL;
+END
+$$;
+
+GRANT bengkel_api TO bengkel_runtime;
