@@ -1,0 +1,3 @@
+# Vendored agent skills are not project code.
+.claude/
+.impeccable/
